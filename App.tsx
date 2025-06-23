@@ -1,18 +1,18 @@
 
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import Header from './components/Header.tsx';
-import Footer from './components/Footer.tsx';
-import LandingPage from './pages/LandingPage.tsx';
-import GetSuggestionsPage from './pages/GetSuggestionsPage.tsx';
-import ExplorePage from './pages/ExplorePage.tsx';
-import MyTripsPage from './pages/MyTripsPage.tsx';
-import AboutPage from './pages/AboutPage.tsx';
-import LoginPage from './pages/LoginPage.tsx';
-import RegisterPage from './pages/RegisterPage.tsx';
-import ProfilePage from './pages/ProfilePage.tsx';
-import { AuthProvider } from './components/AuthContext.tsx';
-import ProtectedRoute from './components/ProtectedRoute.tsx';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import LandingPage from './pages/LandingPage';
+import GetSuggestionsPage from './pages/GetSuggestionsPage';
+import ExplorePage from './pages/ExplorePage';
+import MyTripsPage from './pages/MyTripsPage';
+import AboutPage from './pages/AboutPage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import ProfilePage from './pages/ProfilePage';
+import { AuthProvider } from './components/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
 
 const AppContent: React.FC = () => {
   const location = useLocation();
@@ -68,5 +68,3 @@ const App: React.FC = () => {
     </AuthProvider>
   );
 };
-
-export default App;
