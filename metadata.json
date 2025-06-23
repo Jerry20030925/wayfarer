@@ -1,6 +1,0 @@
-{
-  "name": "Wayfarer - AI Travel Planner",
-  "description": "An AI-powered travel suggestion app that helps users discover new destinations and plan their trips based on their preferences. It uses Google's Gemini API to generate personalized travel ideas.",
-  "requestFramePermissions": [],
-  "prompt": ""
-}
